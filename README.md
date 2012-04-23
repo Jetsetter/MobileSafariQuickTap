@@ -1,0 +1,4 @@
+MobileSafariQuickTap
+====================
+
+Mobile Safari QuickTap
