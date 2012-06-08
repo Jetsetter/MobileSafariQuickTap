@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MobileSafariQuickTap by Jetsetter</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>MobileSafariQuickTap</h1>
+        <p>Mobile Safari QuickTap</p>
+        <p class="view"><a href="https://github.com/Jetsetter/MobileSafariQuickTap">View the Project on GitHub <small>Jetsetter/MobileSafariQuickTap</small></a></p>
+        <ul>
+          <li><a href="https://github.com/Jetsetter/MobileSafariQuickTap/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Jetsetter/MobileSafariQuickTap/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Jetsetter/MobileSafariQuickTap">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>MobileSafariQuickTap</h3>
+
+<p>A native Javascript class that allows you to selectively get rid of click delays in MobileSafari</p>
+
+<h3>Why?</h3>
+
+<p>You know those pesky delays in MobileSafari for click handles? Aren't those really annoying when your trying to get a native feel for your web app? This class allows you to mimic a tap for specific elements, so you can rid of those delays for the stuff that matters, and leave it off for the stuff that doesn't. This class will also respect scrolling, so if your user is scrolling and touches the element you wont lose the scroll capability.</p>
+
+<h3>How to use?</h3>
+
+<p>This is written in native Javascript so it is completely framework independent. </p>
+
+<p>To set a QuickTap interaction for a specific element:</p>
+
+<pre><code>new QuickTap(element);
+</code></pre>
+
+<p>Then bind the click event as you normally would (example in MooTools):</p>
+
+<pre><code>element.addEvent('click', function(){
+    // do something awesome
+});
+</code></pre>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/Jetsetter">Jetsetter</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
